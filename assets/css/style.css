@@ -1,0 +1,36 @@
+/* Common codes start */
+:root{
+    --light-color: #fff;
+    --dark-color: #040404;
+    --primary-color: #063;
+}
+
+.text-justify{
+    text-align: justify;
+}
+/* Common codes end */
+
+/* navbar section start */
+#navbar{
+    --bs-dropdown-bg: : var(var(--dark-color));
+}
+.sticky-top {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1px);
+}
+/* navbar section end */
+
+/* menu section start */
+.food-description h2{
+    color: var(--primary-color);
+}
+
+.food-description p{
+    color: var(--dark-color);
+}
+
+.menu-title h1{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+/* menu section end */

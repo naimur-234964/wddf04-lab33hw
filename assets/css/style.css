@@ -84,6 +84,12 @@
 
 /* contact section end */
 
+/* about section start */
+.card-subtitle{
+    color: var(--primary-color);
+}
+/* about section end */
+
 /* footer section start */
 #footer {
     background: rgba(49, 137, 46, .9);

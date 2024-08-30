@@ -1,55 +1,60 @@
 /* Common codes start */
-:root{
+:root {
     --light-color: #fff;
     --dark-color: #040404;
     --primary-color: #063;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
 
-.title h1{
+.title h1 {
     color: var(--primary-color);
     font-weight: 700;
 }
+
 /* Common codes end */
 
 /* navbar section start */
-#navbar{
+#navbar {
     --bs-dropdown-bg: : var(var(--dark-color));
 }
+
 .sticky-top {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(1px);
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-     color: var(--light-color); 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--light-color);
 }
 
 .nav-link {
     padding: 10px 30px;
     border-radius: 10px;
-    transition: .3s ;
-    &.active{
+    transition: .3s;
+
+    &.active {
         background: var(--primary-color);
         color: var(--light-color);
     }
 
-    &:hover{
+    &:hover {
         background: var(--primary-color);
         color: var(--light-color);
     }
 }
+
 /* navbar section end */
 
 /* menu section start */
-.food-description h2{
+.food-description h2 {
     color: var(--primary-color);
 }
 
-.food-description p{
+.food-description p {
     color: var(--dark-color);
 }
 
@@ -57,17 +62,33 @@
 
 /* contact section start */
 .contact-content {
-    & a{
+    & a {
         text-decoration: none;
         color: var(--primary-color);
     }
 }
 
-#form_section .btn{
+#form_section .btn {
     background: var(--primary-color);
 
-    &:hover{
+    &:hover {
         background: rgba(0, 102, 51, .8);
     }
 }
+
 /* contact section end */
+
+/* footer section start */
+#footer {
+    background: rgba(49, 137, 46, .9);
+}
+
+.footer-text a {
+    opacity: .7;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+/* footer section end */

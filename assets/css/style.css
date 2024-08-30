@@ -8,6 +8,11 @@
 .text-justify{
     text-align: justify;
 }
+
+.title h1{
+    color: var(--primary-color);
+    font-weight: 700;
+}
 /* Common codes end */
 
 /* navbar section start */
@@ -48,18 +53,9 @@
     color: var(--dark-color);
 }
 
-.menu-title h1{
-    color: var(--primary-color);
-    font-weight: 700;
-}
 /* menu section end */
 
 /* contact section start */
-.contact-title h1{
-    color: var(--primary-color);
-    font-weight: 700;
-}
-
 .contact-content {
     & a{
         text-decoration: none;
